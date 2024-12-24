@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">alfagift</string>
+    <string name="login">Login</string>
+    <string name="email_hint">Email Anda</string>
+    <string name="password_hint">Password Anda</string>
+    <string name="move">Lupa password?</string>
+    <string name="masuk">Masuk</string>
+    <string name="contact">Contact List</string>
+    <string name="nama">Nama Kontak</string>
+    <string name="nomor">Nomor Telepon</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Hapus</string>
+    <string name="foto">Foto Kontak</string>
+    <string name="back_icon">Back</string>
+</resources>

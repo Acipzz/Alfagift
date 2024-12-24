@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="25dp"
+    android:gravity="center_vertical">
+
+    <!-- Ikon Profil -->
+    <ImageView
+        android:id="@+id/contact_photo"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:contentDescription="@string/foto"
+        android:src="@drawable/ic_person"
+        android:layout_marginEnd="20dp" />
+
+    <!-- Info Kontak -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/contact_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nama"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/contact_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nomor"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <!-- Ikon Edit -->
+    <ImageView
+        android:id="@+id/contact_edit"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:contentDescription="@string/edit"
+        android:src="@drawable/ic_edit"
+        android:layout_marginEnd="16dp" />
+
+    <!-- Ikon Hapus -->
+    <ImageView
+        android:id="@+id/contact_delete"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:contentDescription="@string/delete"
+        android:src="@drawable/ic_delete" />
+</LinearLayout>
